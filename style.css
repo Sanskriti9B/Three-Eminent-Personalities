@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+hr{
+   background: red;
+   height: 2px;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: saddlebrown;
+    font-size: 55px;
+}
+.container{
+    display: flex;
+    background: rgb(241, 10, 222);
+    height: 450px;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.p1{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 270px;
+    background-color: red;
+}
+.p2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 270px;
+    background-color: blue;
+}
+.p3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 270px;
+    background-color: rgb(179, 12, 245);
+}
+img{
+    display: inline-block;
+}
+.text{
+    font-size: 36px;
+}
+a:link{
+    text-decoration: none;
+    color:wheat;
+}
+a:visited{
+    text-decoration: none;
+    color: yellowgreen;
+}
+a:hover{
+    text-decoration: underline;
+    color: saddlebrown;
+}
+.con{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+
+    height: 400px;
+    width: 100vw;
+    background: rgb(9, 202, 228);
+    align-items: center;
+}
+.pic{
+    
+}
+
+.dis{
+    width: 60vw;
+}
+
